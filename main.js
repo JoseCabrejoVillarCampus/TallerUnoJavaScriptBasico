@@ -13,76 +13,76 @@ if (selc="A"){
     let nota= prompt("Ingrese una nota:");
 
 if (nota >= 90 && nota <= 100){
-    console.log(`Su calificacion es ${table[0].letter}`);
-    console.log(`Exceeds proficiency`);
+    alert(`Su calificacion es ${table[0].letter}`);
+    alert(`Exceeds proficiency`);
 } else if (nota >= 80 && nota <= 89){
-    console.log(`Su calificacion es ${table[1].letter}`);
-    console.log(`Demostrates proficiency`);
+    alert(`Su calificacion es ${table[1].letter}`);
+    alert(`Demostrates proficiency`);
 } else if (nota >= 70 && nota <= 79){
-    console.log(`Su calificacion es ${table[2].letter}`);
-    console.log(`Approveches proficiency`);
+    alert(`Su calificacion es ${table[2].letter}`);
+    alert(`Approveches proficiency`);
 }else if (nota >= 60 && nota <= 69){
-    console.log(`Su calificacion es ${table[3].letter}`);
-    console.log(`Falls well velow proficiency`);
+    alert(`Su calificacion es ${table[3].letter}`);
+    alert(`Falls well velow proficiency`);
 }else if (nota < 60){
-    console.log(`Su calificacion es ${table[4].letter}`);
-    console.log(`Lacks all proficiency`);
+    alert(`Su calificacion es ${table[4].letter}`);
+    alert(`Lacks all proficiency`);
 } else if ( nota == 0){
-    console.log(`Su calificacion es ${table[5].letter}`);
-    console.log(`No attempt made`);
+    alert(`Su calificacion es ${table[5].letter}`);
+    alert(`No attempt made`);
 } else {
-    console.log("valor no permitido")
+    alert("valor no permitido")
 }
 }else if (selc="B"){
     let rang= prompt("Ingrese un rango:");
 
 if (rang >= 12 && rang <= 14){
-    console.log(`Su calificacion es ${table[0].letter}`);
-    console.log(`Exceeds proficiency`);
+    alert(`Su calificacion es ${table[0].letter}`);
+    alert(`Exceeds proficiency`);
 } else if (rang >= 9 && rang <= 11){
-    console.log(`Su calificacion es ${table[1].letter}`);
-    console.log(`Demostrates proficiency`);
+    alert(`Su calificacion es ${table[1].letter}`);
+    alert(`Demostrates proficiency`);
 } else if (rang >= 6 && rang <= 8){
-    console.log(`Su calificacion es ${table[2].letter}`);
-    console.log(`Approveches proficiency`);
+    alert(`Su calificacion es ${table[2].letter}`);
+    alert(`Approveches proficiency`);
 }else if (rang >= 3 && rang <= 5){
-    console.log(`Su calificacion es ${table[3].letter}`);
+    alert(`Su calificacion es ${table[3].letter}`);
     console.log(`Falls well velow proficiency`);
 }else if (rang >= 1 && rang <= 2){
-    console.log(`Su calificacion es ${table[4].letter}`);
-    console.log(`Lacks all proficiency`);
+    alert(`Su calificacion es ${table[4].letter}`);
+    alert(`Lacks all proficiency`);
 } else if ( rang == 0){
-    console.log(`Su calificacion es ${table[5].letter}`);
-    console.log(`No attempt made`);
+    alert(`Su calificacion es ${table[5].letter}`);
+    alert(`No attempt made`);
 } else {
-    console.log("valor no permitido")
+    alert("valor no permitido")
 }
 }else if (selc="C"){
     let rant= prompt("Ingrese un rating:");
 
 if (rant =4){
-    console.log(`Su calificacion es ${table[0].letter}`);
+    alert(`Su calificacion es ${table[0].letter}`);
     console.log(`Exceeds proficiency`);
 } else if (rant=3){
-    console.log(`Su calificacion es ${table[1].letter}`);
-    console.log(`Demostrates proficiency`);
+    alert(`Su calificacion es ${table[1].letter}`);
+    alert(`Demostrates proficiency`);
 } else if (rant = 2){
-    console.log(`Su calificacion es ${table[2].letter}`);
-    console.log(`Approveches proficiency`);
+    alert(`Su calificacion es ${table[2].letter}`);
+    alert(`Approveches proficiency`);
 }else if (rant =1){
-    console.log(`Su calificacion es ${table[3].letter}`);
-    console.log(`Falls well velow proficiency`);
+    alert(`Su calificacion es ${table[3].letter}`);
+    alert(`Falls well velow proficiency`);
 }else if (rant == 0){
-    console.log(`Su calificacion es ${table[4].letter}`);
-    console.log(`Lacks all proficiency`);
+    alert(`Su calificacion es ${table[4].letter}`);
+    alert(`Lacks all proficiency`);
 } else if ( rant == 0){
-    console.log(`Su calificacion es ${table[5].letter}`);
-    console.log(`No attempt made`);
+    alert(`Su calificacion es ${table[5].letter}`);
+    alert(`No attempt made`);
 } else {
-    console.log(`valor no permitido`)
+    alert(`valor no permitido`)
 }
 }else{
-    console.log(`Opcion no valida`)
+    alert(`Opcion no valida`)
 }
 
 
