@@ -13,23 +13,17 @@ if (selc="A"){
     let nota= prompt("Ingrese una nota:");
 
 if (nota >= 90 && nota <= 100){
-    alert(`Su calificacion es ${table[0].letter}`);
-    alert(`Exceeds proficiency`);
+    alert(`Su calificacion es ${table[0].letter}` + `Exceeds proficiency`);
 } else if (nota >= 80 && nota <= 89){
-    alert(`Su calificacion es ${table[1].letter}`);
-    alert(`Demostrates proficiency`);
+    alert(`Su calificacion es ${table[1].letter}` + `Demostrates proficiency`);
 } else if (nota >= 70 && nota <= 79){
-    alert(`Su calificacion es ${table[2].letter}`);
-    alert(`Approveches proficiency`);
+    alert(`Su calificacion es ${table[2].letter}` + `Approveches proficiency`);
 }else if (nota >= 60 && nota <= 69){
-    alert(`Su calificacion es ${table[3].letter}`);
-    alert(`Falls well velow proficiency`);
+    alert(`Su calificacion es ${table[3].letter}` + `Falls well velow proficiency`);
 }else if (nota < 60){
-    alert(`Su calificacion es ${table[4].letter}`);
-    alert(`Lacks all proficiency`);
+    alert(`Su calificacion es ${table[4].letter}` + `Lacks all proficiency`);
 } else if ( nota == 0){
-    alert(`Su calificacion es ${table[5].letter}`);
-    alert(`No attempt made`);
+    alert(`Su calificacion es ${table[5].letter}` + `No attempt made`);
 } else {
     alert("valor no permitido")
 }
@@ -37,23 +31,17 @@ if (nota >= 90 && nota <= 100){
     let rang= prompt("Ingrese un rango:");
 
 if (rang >= 12 && rang <= 14){
-    alert(`Su calificacion es ${table[0].letter}`);
-    alert(`Exceeds proficiency`);
+    alert(`Su calificacion es ${table[0].letter}` + `Exceeds proficiency`);
 } else if (rang >= 9 && rang <= 11){
-    alert(`Su calificacion es ${table[1].letter}`);
-    alert(`Demostrates proficiency`);
+    alert(`Su calificacion es ${table[1].letter}` + `Demostrates proficiency`);
 } else if (rang >= 6 && rang <= 8){
-    alert(`Su calificacion es ${table[2].letter}`);
-    alert(`Approveches proficiency`);
+    alert(`Su calificacion es ${table[2].letter}` + `Approveches proficiency`);
 }else if (rang >= 3 && rang <= 5){
-    alert(`Su calificacion es ${table[3].letter}`);
-    console.log(`Falls well velow proficiency`);
+    alert(`Su calificacion es ${table[3].letter}` + `Falls well velow proficiency`);
 }else if (rang >= 1 && rang <= 2){
-    alert(`Su calificacion es ${table[4].letter}`);
-    alert(`Lacks all proficiency`);
+    alert(`Su calificacion es ${table[4].letter}` + `Lacks all proficiency`);
 } else if ( rang == 0){
-    alert(`Su calificacion es ${table[5].letter}`);
-    alert(`No attempt made`);
+    alert(`Su calificacion es ${table[5].letter}` + `No attempt made`);
 } else {
     alert("valor no permitido")
 }
@@ -61,31 +49,23 @@ if (rang >= 12 && rang <= 14){
     let rant= prompt("Ingrese un rating:");
 
 if (rant =4){
-    alert(`Su calificacion es ${table[0].letter}`);
-    console.log(`Exceeds proficiency`);
+    alert(`Su calificacion es ${table[0].letter}` + `Exceeds proficiency`);
 } else if (rant=3){
-    alert(`Su calificacion es ${table[1].letter}`);
-    alert(`Demostrates proficiency`);
+    alert(`Su calificacion es ${table[1].letter}` + `Demostrates proficiency`);
 } else if (rant = 2){
-    alert(`Su calificacion es ${table[2].letter}`);
-    alert(`Approveches proficiency`);
+    alert(`Su calificacion es ${table[2].letter}` + `Approveches proficiency`);
 }else if (rant =1){
-    alert(`Su calificacion es ${table[3].letter}`);
-    alert(`Falls well velow proficiency`);
+    alert(`Su calificacion es ${table[3].letter}` + `Falls well velow proficiency`);
 }else if (rant == 0){
-    alert(`Su calificacion es ${table[4].letter}`);
-    alert(`Lacks all proficiency`);
+    alert(`Su calificacion es ${table[4].letter}` + `Lacks all proficiency`);
 } else if ( rant == 0){
-    alert(`Su calificacion es ${table[5].letter}`);
-    alert(`No attempt made`);
+    alert(`Su calificacion es ${table[5].letter}` + `No attempt made`);
 } else {
     alert(`valor no permitido`)
 }
 }else{
     alert(`Opcion no valida`)
 }
-
-
 
 
 // const result = table.filter(e => e.option == opcion);
