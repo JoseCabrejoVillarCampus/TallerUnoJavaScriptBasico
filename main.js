@@ -8,7 +8,7 @@ const table=[
 ]
 
 console.table(table)
-let selc= prompt("Ingrese un tipo de calificacion(A, B o C):");
+let selc= prompt("Ingrese un tipo de calificacion(A(tradiciona), B(rango) o C(rating)):");
 if (selc="A"){
     let nota= prompt("Ingrese una nota:");
 
