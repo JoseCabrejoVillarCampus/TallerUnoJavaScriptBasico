@@ -9,7 +9,7 @@ const table=[
 
 console.table(table)
 let selc= prompt("Ingrese un tipo de calificacion(A(tradiciona), B(rango) o C(rating)):");
-if (selc="A"){
+if (selc=="A"){
     let nota= prompt("Ingrese una nota:");
 
 if (nota >= 90 && nota <= 100){
@@ -27,7 +27,7 @@ if (nota >= 90 && nota <= 100){
 } else {
     alert("valor no permitido")
 }
-}else if (selc="B"){
+}else if (selc=="B"){
     let rang= prompt("Ingrese un rango:");
 
 if (rang >= 12 && rang <= 14){
@@ -45,7 +45,7 @@ if (rang >= 12 && rang <= 14){
 } else {
     alert("valor no permitido")
 }
-}else if (selc="C"){
+}else if (selc=="C"){
     let rant= prompt("Ingrese un rating:");
 
 if (rant =4){
