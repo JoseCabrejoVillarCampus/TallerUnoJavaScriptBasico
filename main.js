@@ -48,13 +48,13 @@ if (rang >= 12 && rang <= 14){
 }else if (selc=="C"){
     let rant= prompt("Ingrese un rating:");
 
-if (rant =4){
+if (rant ==4){
     alert(`Su calificacion es ${table[0].letter}` + `Exceeds proficiency`);
-} else if (rant=3){
+} else if (rant==3){
     alert(`Su calificacion es ${table[1].letter}` + `Demostrates proficiency`);
-} else if (rant = 2){
-    alert(`Su calificacion es ${table[2].letter}` + `Approveches proficiency`);
-}else if (rant =1){
+} else if (rant == 2){
+    alert(`Su calificacion es ${table[2].letter}` +  `Approveches proficiency`);
+}else if (rant ==1){
     alert(`Su calificacion es ${table[3].letter}` + `Falls well velow proficiency`);
 }else if (rant == 0){
     alert(`Su calificacion es ${table[4].letter}` + `Lacks all proficiency`);
