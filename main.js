@@ -59,7 +59,7 @@ if (rant ==4){
 }else if (rant == 0){
     alert(`Su calificacion es \t${table[4].letter}` + `\tLacks all proficiency`);
 } else if ( rant == 0){
-    alert(`Su calificacion es \t${table[5].letter}` + `\to attempt made`);
+    alert(`Su calificacion es \t${table[5].letter}` + `\tNo attempt made`);
 } else {
     alert(`valor no permitido`)
 }
